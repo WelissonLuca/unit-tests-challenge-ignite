@@ -11,7 +11,7 @@ enum OperationType {
 		DEPOSIT = "deposit",
 		WITHDRAW = "withdraw",
 	}
-describe("createUser", () => {
+describe("createStatement", () => {
   beforeEach(() => {
     statmentRepository = new InMemoryStatementsRepository();
     usersRepository = new InMemoryUsersRepository();
